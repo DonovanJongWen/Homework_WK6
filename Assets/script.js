@@ -24,7 +24,7 @@ function loadCities() {  // load cities stored in local storage array
 };
 
 function wtrSearch(city) {
-    var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=metric&appid=5e55803406a006cf8af82ba572274d10";
+    var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&units=metric&appid=c96abfeae19d2171913c0c0393fca455";
     $.ajax({
         url: queryURL,
         method: "GET",
@@ -63,7 +63,7 @@ function wtrSearch(city) {
 
 function fiveDayandUVSearch(lon, lat) {
     // use onecall paramater from api for UV and 5 day search
-    var queryURL = "https://api.openweathermap.org/data/2.5/onecall?lon=" + lon + "&lat=" + lat + "&units=metric&exclude=hourly,minutely,alerts&appid=5e55803406a006cf8af82ba572274d10";
+    var queryURL = "https://api.openweathermap.org/data/2.5/onecall?lon=" + lon + "&lat=" + lat + "&units=metric&exclude=hourly,minutely,alerts&appid=c96abfeae19d2171913c0c0393fca455";
     $.ajax({
         url: queryURL,
         method: "GET"
