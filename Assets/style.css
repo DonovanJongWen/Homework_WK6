@@ -1,0 +1,64 @@
+.row{
+    padding: 5px;
+}
+
+.headerRow{
+    background-color:#383c44 ; 
+    color: white;
+    height: 80px; 
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+
+#currentWeatherIcon {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+#cityAndDate {
+    float: left;
+    padding-top: 5px;
+  }
+
+#UVtext, #currentUV { 
+   display:inline;
+   }
+
+#cityList{
+    background-color: rgb(248, 246, 246);
+}
+
+#searchHeading{
+    padding-top: 10px;
+}
+
+.input-group{
+    margin-bottom: 10px;
+}
+
+#cityAndDate{
+    margin-bottom: 20px;
+}
+
+
+#btnGroup{
+    width: 100%;
+}
+
+.btnCity{
+       text-align: left;
+       border:1px solid lightgray;
+       margin-bottom: 5px;
+}
+
+.h5El{
+    margin-bottom: 20px;
+}
+
+.card-deck{
+    width: 100%;
+}
+
+.card-body{
+    padding: 5px;
+}
